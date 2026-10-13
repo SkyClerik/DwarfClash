@@ -1,0 +1,359 @@
+.button {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/imageUpdating/Buttons/Small%20button.png?fileID=21300000&guid=0c79f01a8f4091d43a071a361f26c46b&type=3#Small button");
+    background-color: rgba(0, 0, 0, 0);
+    width: 260px;
+    height: 80px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(217, 217, 217);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    font-size: 40px;
+    -unity-font: resource('Fonts & Materials/KZ Supercell-Magic');
+}
+
+.button:hover {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=1447751468&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_11");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 260px;
+    height: 80px;
+    font-size: 45px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.button:focus {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=1447751468&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_11");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 260px;
+    height: 80px;
+    font-size: 45px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+
+.buttonBigText {
+
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/imageUpdating/Buttons/Small%20button.png?fileID=21300000&guid=0c79f01a8f4091d43a071a361f26c46b&type=3#Small button");
+    background-color: rgba(0, 0, 0, 0);
+    width: 260px;
+    height: 80px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    color: rgb(217, 217, 217);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    white-space: normal;   
+    flex-wrap: wrap; 
+    font-size: 22px; 
+    -unity-font: resource('Fonts & Materials/KZ Supercell-Magic');
+
+}
+.buttonBigText:hover {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=1447751468&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_11");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 260px;
+    height: 80px;
+    font-size: 23px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.buttonBigText:focus {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=1447751468&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_11");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    width: 260px;
+    height: 80px;
+    font-size: 23px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+
+.button380 {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=1447751468&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_11");
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 45px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    color: rgb(237, 237, 237);
+    -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=e15fb802b27245648996b017c9b6bd48&type=3#NotInter-Regular");
+    -unity-font-definition: initial;
+}
+
+.button380:hover {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=1447751468&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_11");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-font-definition: initial;
+}
+
+.button380:focus {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=1447751468&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_11");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.buttonCircle {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/CirclePanel.png?fileID=21300000&guid=ec49d57cd1c1945449d4ef7166504595&type=3#CirclePanel");
+    background-color: rgba(0, 0, 0, 0);
+
+    width: 200px;
+    height: 250px;
+    flex-grow: 0;
+    border-radius: 10px;
+    overflow: hidden;
+
+    font-size: 45px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    /* -unity-background-scale-mode: stretch-to-fill; */
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    color: rgb(237, 237, 237);
+    -unity-font: url("project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=e15fb802b27245648996b017c9b6bd48&type=3#NotInter-Regular");
+    -unity-font-definition: initial;
+}
+
+.buttonCircle:hover {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/imageUpdating/CirclePanelExit.png?fileID=21300000&guid=ca2055e98a478ef429fcf3a910682e79&type=3#CirclePanelExit");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    
+    width: 200px;
+    height: 250px;
+    flex-grow: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 30px;
+    
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-font-definition: initial;
+}
+
+.buttonCircle:focus {
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    background-image: url("project://database/Assets/UI%20Toolkit/imageUpdating/Battle%20Pass/circle.png?fileID=21300000&guid=452e473b184ab304ba378b1bb9f8a848&type=3#circle");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    
+    width: 200px;
+    height: 250px;
+    flex-grow: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 30px;
+    
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(217, 217, 217);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.buttonGlobalMapA1 {
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=-631108837&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_9");
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    color: rgb(217, 217, 217);
+    font-size: 45px;
+    -unity-text-outline-width: 2px;
+    -unity-font-style: bold;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    width: 277px;
+    height: 128px;
+    margin-left: 70px;
+}
+
+.buttonGlobalMapA1:hover {
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=-631108837&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_9");
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    color: rgb(217, 217, 217);
+    font-size: 50px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.buttonGlobalMapA1:focus {
+    background-image: url("project://database/Assets/UI%20Toolkit/Images/UiElements.png?fileID=-631108837&guid=69c220b0501795a479bfcacc17b8a0f3&type=3#UiElements_9");
+    -unity-slice-left: 0;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(217, 217, 217);
+    font-size: 50px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.hero_icon_root {
+    width: 20%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.button_i {
+    background-image: url("project://database/Assets/UI%20Toolkit/imageUpdating/icons/i.png?fileID=21300000&guid=5b44eb8e10e692148b7636c76459ded1&type=3#i");
+}
+
+.button_i:hover {
+    background-image: url("project://database/Assets/UI%20Toolkit/imageUpdating/icons/i.png?fileID=21300000&guid=5b44eb8e10e692148b7636c76459ded1&type=3#i");
+    border-left-color: rgba(79, 171, 35, 0);
+    border-right-color: rgba(79, 171, 35, 0);
+    border-top-color: rgba(79, 171, 35, 0);
+    border-bottom-color: rgba(79, 171, 35, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    -unity-background-image-tint-color: rgb(30, 171, 31);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.button_i:focus {
+    background-image: url("project://database/Assets/UI%20Toolkit/imageUpdating/icons/i.png?fileID=21300000&guid=5b44eb8e10e692148b7636c76459ded1&type=3#i");
+}
+
+.TextStyle {
+}
+
+
+.window {
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+}

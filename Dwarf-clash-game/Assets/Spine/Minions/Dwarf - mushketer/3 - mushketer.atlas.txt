@@ -1,0 +1,16 @@
+3 - mushketer.png
+size:1024,256
+filter:Linear,Linear
+pma:true
+L Leg
+bounds:201,27,82,63
+R Leg
+bounds:201,27,82,63
+Голова
+bounds:2,2,197,203
+Грудь
+bounds:632,65,184,140
+Оружие
+bounds:201,92,241,113
+Плащ
+bounds:444,60,186,145

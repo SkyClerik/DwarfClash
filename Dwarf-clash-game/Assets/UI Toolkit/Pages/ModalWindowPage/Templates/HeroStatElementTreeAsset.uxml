@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement picking-mode="Ignore" name="root" style="flex-grow: 1; flex-direction: row; align-items: flex-start;">
+        <ui:VisualElement style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Images/box_bar1.png?fileID=21300000&amp;guid=419278b35c1176e46823b73892468b07&amp;type=3#box_bar1&quot;); -unity-background-scale-mode: stretch-to-fill; height: 64px; left: 32px; flex-shrink: 1; width: 246px;">
+            <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; width: 64px; height: 64px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Images/icons/stat_icon.png?fileID=21300000&amp;guid=28dec54acfb18c9458f0e45d9cac33c0&amp;type=3#stat_icon&quot;); left: -32px; position: absolute;">
+                <ui:VisualElement name="icon" style="flex-grow: 0; width: 100%; height: 100%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/Images/icons/hp_icon.png?fileID=21300000&amp;guid=40fd306ca60667742ac03b1502b4d495&amp;type=3#hp_icon&quot;);" />
+            </ui:VisualElement>
+            <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; align-items: center;">
+                <ui:Label tabindex="-1" text="Evasion" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stat_name" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 40px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left; color: rgb(217, 217, 217); -unity-font-style: bold; font-size: 35px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; flex-direction: row; align-items: center; height: 64px;">
+            <ui:Label tabindex="-1" text="518888" parse-escape-sequences="true" display-tooltip-when-elided="true" name="current_value" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 40px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left; color: rgb(217, 217, 217); -unity-font-style: bold; font-size: 35px;" />
+            <ui:Label tabindex="-1" text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="plus" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 10px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left; color: rgb(0, 255, 0); -unity-font-style: bold; font-size: 35px;" />
+            <ui:Label tabindex="-1" text="17" parse-escape-sequences="true" display-tooltip-when-elided="true" name="next_level_value" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; -unity-text-align: middle-left; color: rgb(0, 255, 0); -unity-font-style: bold; font-size: 35px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

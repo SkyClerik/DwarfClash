@@ -1,0 +1,5 @@
+.on-off-toggle > .unity-toggle__input{
+
+    display: none;
+
+}

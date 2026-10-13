@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa9dd6ab81876745a5e34850ca98ee4, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  _id: 0
+  _name: 
+  _description: 
+  _icon: {fileID: 5012434068729627006, guid: 570d957424eca12448c0ea03bcbdbfdb, type: 3}
+  _rare: 0
+  _curHealth: 5
+  _maxHealth: 5
+  _damage: 1
+  _attackSpeed: 1
+  _moveSpeed: 1
+  _armor: 1
+  _penetrationArmor: 1
+  _critChance: 0
+  _accuracy: 0
+  _targetUpdateSpeed: 0.5
+  _spriteAtlas: {fileID: 2800000, guid: ee3253d086b0391489ea59776c87a12e, type: 3}

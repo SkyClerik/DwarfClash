@@ -1,0 +1,24 @@
+2.png
+size:413,754
+filter:Linear,Linear
+pma:true
+L Leg
+bounds:2,144,134,114
+R Leg
+bounds:2,144,134,114
+L Рог
+bounds:138,159,62,99
+L Рука
+bounds:104,25,85,117
+R Плечо
+bounds:202,44,209,174
+R Рог
+bounds:2,2,100,140
+Голова
+bounds:206,220,168,245
+Грудь
+bounds:2,535,258,217
+Меч
+bounds:262,467,145,285
+Щит
+bounds:2,260,202,273

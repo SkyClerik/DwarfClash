@@ -1,0 +1,37 @@
+
+.switch-toggle .unity-toggle__input {
+    background-color: #573434;
+    border-radius: 15px;
+    width: 100%;
+
+    align-content: center;
+    height: 50px;
+
+    position: relative;
+}
+
+.switch-toggle {
+
+    width: 150px;
+
+}
+
+/* Кружок */
+.switch-toggle .unity-toggle__checkmark {
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+
+    transition: left 0.15s ease-in-out;
+}
+
+
+.switch-toggle:checked .unity-toggle__checkmark {
+    background-color: #4CD964; /* зеленый */
+}
+
+.switch-toggle:checked .unity-toggle__checkmark {
+    left: 100px;
+}

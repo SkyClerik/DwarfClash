@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce97dc64437648f429912c52a07375ff, type: 3}
+  m_Name: Aimed_Shot_HeroDefinition
+  m_EditorClassIdentifier: 
+  _id: 0
+  _name: "aimed shot\t"
+  _description: "\u0428\u0430\u043D\u0441 \u043A\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E
+    \u0443\u0440\u043E\u043D\u0430 \u2014 \u0432\u044B\u0441\u043E\u043A\u0430\u044F
+    \u0443\u0434\u0430\u0447\u0430\r\n"
+  _icon: {fileID: 1594950950, guid: 4c09e0fe6f36a514e8a1dfc5b6339d86, type: 3}
+  _rare: 0
+  _level: 1
+  _curHealth: 34
+  _maxHealth: 34
+  _damage: 2
+  _magicArmor: 0
+  _physicalArmor: 0
+  _lacky: 0
+  _evasion: 0
+  _critChance: 0
+  _accuracy: 0
+  _attackSpeed: 0
+  _moveSpeed: 1
+  _aggressionWeights:
+  - _heroDefinition: {fileID: 11400000, guid: 95eda34ed0dca1f4ab580c05e8e8e6ac, type: 2}
+    _weight: 0
+  _minionDefinition: {fileID: 11400000, guid: 6bf98ba13e12572488d72223dcd40546, type: 2}
+  _minionLevelsCurve: {fileID: 11400000, guid: ab4d6ad765e590c439359efb1c8c14a5, type: 2}

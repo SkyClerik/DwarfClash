@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d40bf6a70aa2042be8c2e95bb2f1c2, type: 3}
+  m_Name: GameCurrencyCollection
+  m_EditorClassIdentifier: 
+  _gold: {fileID: 11400000, guid: 28db70174f862fd4f85d3e46cbf00476, type: 2}
+  _adamantite: {fileID: 11400000, guid: 389156cd7b67a6b4590f7ddfda300860, type: 2}
+  _crystals: {fileID: 11400000, guid: c5378e5e18c5c7b4ca5d4765c76182ac, type: 2}
+  _silver: {fileID: 11400000, guid: 3b18e1d68b78e4547bd0b26610998b56, type: 2}
+  _experiencePotion: {fileID: 11400000, guid: 7f0f240febaccf445996e59adc4dfd65, type: 2}
+  _food: {fileID: 11400000, guid: 2edf3e3bfadc08a4282d4bef47697089, type: 2}
+  _energy: {fileID: 11400000, guid: c4d2a5998e4079e49be7df9ec91b3a3b, type: 2}

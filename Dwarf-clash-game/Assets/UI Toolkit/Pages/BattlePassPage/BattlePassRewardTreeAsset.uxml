@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <!-- 
+        Root element for a single tier. 
+        It has two main sections: 'free-reward' and 'premium-reward'.
+        And a 'tier-details' section for the tier number and claim button.
+    -->
+    <ui:VisualElement name="tier-root" style="flex-direction: row; height: 120px; margin: 5px 40px;">
+
+        <!-- Tier Level Number -->
+        <ui:VisualElement style="width: 80px; align-items: center; justify-content: center; margin-right: 10px;">
+            <ui:Label name="tier-level-label" text="1" style="font-size: 24px; -unity-font-style: bold;"/>
+        </ui:VisualElement>
+
+        <!-- Free Reward Slot -->
+        <ui:VisualElement name="free-reward-container" class="reward-container" style="width: 150px; height: 100%; align-items: center; justify-content: center; background-color: rgba(80, 80, 80, 0.5); border-radius: 10px; margin-right: 5px;">
+            <ui:VisualElement name="free-reward-icon" class="reward-icon" style="width: 80px; height: 80px; background-color: grey;"/>
+            <ui:Label name="free-reward-amount" text="x1" class="reward-amount"/>
+        </ui:VisualElement>
+
+        <!-- Premium Reward Slot -->
+        <ui:VisualElement name="premium-reward-container" class="reward-container" style="width: 150px; height: 100%; align-items: center; justify-content: center; background-color: rgba(120, 100, 50, 0.5); border-radius: 10px; margin-left: 5px;">
+            <ui:VisualElement name="premium-reward-icon" class="reward-icon" style="width: 80px; height: 80px; background-color: gold;"/>
+            <ui:Label name="premium-reward-amount" text="x1" class="reward-amount"/>
+        </ui:VisualElement>
+
+        <!-- Claim Button Area -->
+        <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button name="claim-button" text="Locked" style="width: 120px; height: 50px;"/>
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

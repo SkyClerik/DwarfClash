@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980c14e961137a2409a1b693e435c8b7, type: 3}
+  m_Name: HeroTemplateContainer
+  m_EditorClassIdentifier: 
+  _resources:
+  - Resource: {fileID: 11400000, guid: 07e23c6483178c7438c2819b9b5237f5, type: 2}
+    ExternalId: 1650429340
+  - Resource: {fileID: 11400000, guid: be7cc5eaffbca19499e3d0c7d0c13647, type: 2}
+    ExternalId: 1288337108
+  - Resource: {fileID: 11400000, guid: cd06837951c5c2944b8db3c76da85849, type: 2}
+    ExternalId: 1305689651
+  - Resource: {fileID: 11400000, guid: bc79f9502a1f085489e6138bc88d4788, type: 2}
+    ExternalId: 1677901644
+  - Resource: {fileID: 11400000, guid: d5bf89aa94f51b946a4000ed970c0896, type: 2}
+    ExternalId: 1871499982

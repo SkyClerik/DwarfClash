@@ -1,0 +1,4 @@
+.LabelTest {
+    -unity-font-definition: resource('Fonts & Materials/KZ Supercell-Magic SDF');
+    font-size: 26px;
+}

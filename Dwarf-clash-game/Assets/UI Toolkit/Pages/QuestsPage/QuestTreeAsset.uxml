@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI%20Toolkit/imageUpdating/Battle%20Pass/4.png?fileID=21300000&amp;guid=58503043091c32f448d74e40be166406&amp;type=3#4&quot;); height: 200px; width: 100%; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 20px; margin-right: 0; margin-bottom: 20px; margin-left: 0;">
+        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; height: 100%; background-image: url(&quot;project://database/Assets/UI%20Toolkit/imageUpdating/Inventory/5.png?fileID=2800000&amp;guid=500024b8ad5f3de4a8be2127711309e2&amp;type=3#5&quot;); -unity-background-scale-mode: scale-to-fit; width: 150px; margin-right: 20px; margin-left: 30px;" />
+        <ui:VisualElement style="flex-grow: 1; align-items: flex-end; margin-bottom: 10px; margin-top: 10px; margin-right: 10px; margin-left: 10px;">
+            <ui:VisualElement name="text_area" style="flex-grow: 1; flex-direction: row-reverse;">
+                <ui:Label tabindex="-1" text="quest description test long" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quest_description" picking-mode="Ignore" style="flex-grow: 1; flex-shrink: 0; font-size: 29px; white-space: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UI%20Toolkit/imageUpdating/Buttons/Small%20button.png?fileID=21300000&amp;guid=0c79f01a8f4091d43a071a361f26c46b&amp;type=3#Small button&quot;); -unity-background-scale-mode: stretch-to-fill; width: 180px; margin-left: 0; margin-right: 30px; height: 80px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

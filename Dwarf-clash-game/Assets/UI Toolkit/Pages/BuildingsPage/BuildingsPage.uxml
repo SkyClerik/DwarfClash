@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Pages/BuildingsPage/BuildingsPage.uss?fileID=7433441132597879392&amp;guid=e773cbb711dbcd8448a609c18606b642&amp;type=3#BuildingsPage" />
+    <Style src="project://database/Assets/UI%20Toolkit/Resources/ElementsStyles/WindowStyle.uss?fileID=7433441132597879392&amp;guid=ff2d2358983f8a843a55ebe7055c33d2&amp;type=3#WindowStyle" />
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; justify-content: flex-end; align-items: center;">
+        <ui:Label tabindex="-1" text="1:00" parse-escape-sequences="true" display-tooltip-when-elided="true" picking-mode="Ignore" name="waitng_time" style="font-size: 32px; -unity-font-style: bold; -unity-text-outline-width: 2px;" />
+    </ui:VisualElement>
+    <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; height: 15%; background-color: rgb(65, 36, 22);">
+        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; align-items: center;">
+            <ui:VisualElement name="progress_bar" class="custom-progress-bar" style="height: 50px;">
+                <ui:VisualElement name="second_progress" class="custom-progress-bar__background" />
+                <ui:VisualElement name="main_progress" class="custom-progress-bar__foreground" style="background-image: none;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center;">
+            <ui:VisualElement picking-mode="Ignore" style="flex-grow: 0; min-width: 100px; min-height: 32px; background-color: rgb(188, 188, 188); width: 260px; height: 80px; align-items: center; justify-content: center;">
+                <ui:Label tabindex="-1" text="Bonus" parse-escape-sequences="true" display-tooltip-when-elided="true" picking-mode="Ignore" class="TextStyle" style="font-size: 29px;" />
+            </ui:VisualElement>
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

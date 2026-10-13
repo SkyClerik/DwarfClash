@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa9dd6ab81876745a5e34850ca98ee4, type: 3}
+  m_Name: Cavalry
+  m_EditorClassIdentifier: 
+  _id: 6c6b6e60-f551-405d-86c1-748b63a3a72f
+  _name: 
+  _description: 
+  _icon: {fileID: -1191623278, guid: 4c09e0fe6f36a514e8a1dfc5b6339d86, type: 3}
+  _rare: 0
+  _branch: {fileID: 11400000, guid: efbfa952ad3ada4458622e24f1a884c4, type: 2}
+  _curHealth: 5
+  _maxHealth: 5
+  _damage: 1
+  _attackSpeed: 1
+  _moveSpeed: 1
+  _armor: 1
+  _penetrationArmor: 1
+  _critChance: 0
+  _accuracy: 0
+  _targetUpdateSpeed: 0.5

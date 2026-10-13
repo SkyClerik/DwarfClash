@@ -1,0 +1,23 @@
+.audio-slider > .unity-slider__input{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0; 
+    
+    flex-direction: row;
+    
+
+}
+
+.audio-slider > Label{
+
+    align-self: center;
+}
+
+.audio-slider .unity-base-slider__dragger{
+    width: 35px;
+    height: 35px;
+    
+    border-radius: 100%;
+
+}
