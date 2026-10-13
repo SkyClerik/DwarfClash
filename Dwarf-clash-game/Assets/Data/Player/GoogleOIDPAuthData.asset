@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GoogleOIDPAuthData
   m_EditorClassIdentifier: 
   clientData:
-    clientId: 84788426440-2bkdei2qan9msbcdg205t3sa0b6ufrks.apps.googleusercontent.com
-    clientSecret: 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
+    clientId: 0
+    clientSecret: 0

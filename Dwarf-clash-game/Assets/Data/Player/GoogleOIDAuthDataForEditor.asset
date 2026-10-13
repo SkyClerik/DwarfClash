@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GoogleOIDAuthDataForEditor
   m_EditorClassIdentifier: 
   clientData:
-    clientId: 84788426440-1860hvkkqdr7jofji85fqauviu7k7v3f.apps.googleusercontent.com
-    clientSecret: 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
+    clientId: 0
+    clientSecret: 0
